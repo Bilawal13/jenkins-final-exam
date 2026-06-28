@@ -24,7 +24,7 @@ pipeline{
 		}
 		stage('deploy'){
 			steps{
-				sh 'docker build -t jenkins-final-exam .
+				sh 'docker build -t jenkins-final-exam .'
 				echo 'Deployed'	
 			}
 		}
